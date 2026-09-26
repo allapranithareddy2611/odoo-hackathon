@@ -18,7 +18,7 @@ const supabase = process.env.SUPABASE_URL && process.env.SUPABASE_SERVICE_ROLE_K
   ? createClient(process.env.SUPABASE_URL, process.env.SUPABASE_SERVICE_ROLE_KEY, { auth: { persistSession: false } }) : null;
 const demo = {
   warehouses: [
-    { id: 'wh-main', name: 'Main Warehouse', code: 'WH-MAIN', location: 'North District' },
+    { id: 'wh-main', name: 'Main warehouse', code: 'WH-MAIN', location: 'North District' },
     { id: 'wh-prod', name: 'Production Floor', code: 'WH-PROD', location: 'Factory Building' },
     { id: 'wh-east', name: 'East Outlet', code: 'WH-EAST', location: 'East District' }
   ],
