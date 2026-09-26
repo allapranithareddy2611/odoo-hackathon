@@ -31,7 +31,7 @@ The browser app connects to Supabase Auth directly when `VITE_SUPABASE_URL` and 
 
 ## Demo for judges
 
-1. Open the dashboard and point out the stock KPIs, low-stock warning, recent movements, and warehouse breakdown.
+1. Open the dashboard to view key stock metrics, low-stock alerts, recent inventory movements, and the warehouse-wise stock summary.
 2. Open **Products** and search by SKU or product name. The seeded catalog includes stock at multiple locations.
 3. In **Operations**, create a receipt for an existing SKU and validate it. Show the increased on-hand quantity and new ledger entry.
 4. Create and validate a delivery to demonstrate stock decreasing. Try a quantity larger than available to see the validation guard.
