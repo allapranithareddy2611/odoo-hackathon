@@ -3,7 +3,12 @@ import express from 'express';
 import cors from 'cors';
 import { createClient } from '@supabase/supabase-js';
 import { randomUUID } from 'node:crypto';
-
+/**
+ * StockSense API
+ * Handles warehouses, products, stock operations (receipts, deliveries,
+ * transfers, adjustments) and movement history.
+ * Falls back to an in-memory demo dataset when Supabase env vars are not set.
+ */
 const app = express();
 const port = Number(process.env.PORT || 4000);
 app.use(cors({ origin: process.env.CLIENT_ORIGIN?.split(',') || true }));
