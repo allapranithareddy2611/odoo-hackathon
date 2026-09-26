@@ -19,8 +19,8 @@ const supabase = process.env.SUPABASE_URL && process.env.SUPABASE_SERVICE_ROLE_K
 const demo = {
   warehouses: [
     { id: 'wh-main', name: 'Main warehouse', code: 'WH-MAIN', location: 'North District' },
-    { id: 'wh-prod', name: 'Production Floor', code: 'WH-PROD', location: 'Factory Building' },
-    { id: 'wh-east', name: 'East Outlet', code: 'WH-EAST', location: 'East District' }
+    { id: 'wh-prod', name: 'Production floor', code: 'WH-PROD', location: 'Factory Building' },
+    { id: 'wh-east', name: 'East outlet', code: 'WH-EAST', location: 'East District' }
   ],
   products: [
     { id: 'p-steel', name: 'Steel Rods', sku: 'STL-001', category: 'Raw Materials', unit: 'kg', reorder_level: 40 },
